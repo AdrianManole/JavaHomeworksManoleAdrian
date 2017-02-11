@@ -1,7 +1,10 @@
 /*
- * file of my first self made program in Java
+ * file of my first self made program in Java (copied from Cristian 
+who copied it from Marius)
  */
 package myfirstselfmadeprograminjava;
+
+import java.util.Scanner;
 
 /**
  * My first Java self made program
@@ -11,7 +14,11 @@ public class MyFirstSelfMadeProgramInJava {
 
     
     public static void main(String[] args) {
-        System.out.println("Hello Ghiță, ăsta îi primul program scris singur de mine in Java!!!");
+        Scanner scan = new Scanner (System.in);
+        System.out.println("What is your name?");
+        System.out.print("Please type here: ");
+        String name = scan.nextLine();
+        System.out.println("So your name is " + name);
     }
     
 }
