@@ -23,8 +23,6 @@ public class HelloWorldAnonymousClassesIT {
         System.out.println("sayHello");
         HelloWorldAnonymousClasses instance = new HelloWorldAnonymousClasses();
         instance.sayHello();
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
 
     /**
@@ -35,8 +33,6 @@ public class HelloWorldAnonymousClassesIT {
         System.out.println("main");
         String[] args = null;
         HelloWorldAnonymousClasses.main(args);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
     
 }

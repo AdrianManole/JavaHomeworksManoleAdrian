@@ -23,8 +23,6 @@ public class MyFirstCalculatorIT {
         System.out.println("arithmeticOperations");
         MyFirstCalculator instance = new MyFirstCalculator();
         instance.arithmeticOperations();
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
 
     /**
@@ -35,8 +33,6 @@ public class MyFirstCalculatorIT {
         System.out.println("turnCalculatorOff");
         MyFirstCalculator instance = new MyFirstCalculator();
         instance.turnCalculatorOff();
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
 
     /**
@@ -47,8 +43,6 @@ public class MyFirstCalculatorIT {
         System.out.println("turnCalculatorOn");
         MyFirstCalculator instance = new MyFirstCalculator();
         instance.turnCalculatorOn();
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
 
     /**
@@ -59,8 +53,6 @@ public class MyFirstCalculatorIT {
         System.out.println("main");
         String[] args = null;
         MyFirstCalculator.main(args);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
     
 }
