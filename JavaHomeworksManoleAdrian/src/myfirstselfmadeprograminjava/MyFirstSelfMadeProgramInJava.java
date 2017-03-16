@@ -17,7 +17,8 @@ public class MyFirstSelfMadeProgramInJava {
         Scanner scan = new Scanner (System.in);
         System.out.println("What is your name?");
         System.out.print("Please type here: ");
-        String name = scan.nextLine();
+        //String name = scan.nextLine(); commented for JUnit test
+        String name = "Adrianus";
         System.out.println("So your name is " + name);
     }
     

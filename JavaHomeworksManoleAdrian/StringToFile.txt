@@ -1,2 +1,1 @@
-This method should write a String into a file
-Next method should read the String from the file
+
