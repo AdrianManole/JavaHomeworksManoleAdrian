@@ -1,0 +1,1 @@
+This should write a string into an empty file
